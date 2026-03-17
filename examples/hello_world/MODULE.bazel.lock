@@ -221,8 +221,8 @@
   "moduleExtensions": {
     "@@org_nickel_lang_rules_nickel+//nickel:extensions.bzl%nickel": {
       "general": {
-        "bzlTransitiveDigest": "KQoiEi88zAAu2yUK6E0q/IjNewoIG96i/28gRVgL8Lo=",
-        "usagesDigest": "wqcNQoC5FB9KhqRWiyz7pb8fZBBZHuuqq1yfOJ/k3a4=",
+        "bzlTransitiveDigest": "KCuADI77IIVhIeu8/8aVZ6wUa7ePZfFYT7OJMZjQPuM=",
+        "usagesDigest": "bHT8BOfDoHkOiG+MkqLDjwKro8jdLXKLJoUwB9s702g=",
         "recordedInputs": [
           "REPO_MAPPING:org_nickel_lang_rules_nickel+,bazel_tools bazel_tools"
         ],
@@ -230,9 +230,9 @@
           "nickel_x86_64-linux": {
             "repoRuleId": "@@org_nickel_lang_rules_nickel+//nickel:repositories.bzl%nickel_repositories",
             "attributes": {
-              "nickel_version": "1.4.1",
+              "nickel_version": "1.4.0",
               "nickel_opts": [
-                "--color=always"
+                "--color=never"
               ],
               "platform": "x86_64-linux"
             }
@@ -240,9 +240,9 @@
           "nickel_arm64-linux": {
             "repoRuleId": "@@org_nickel_lang_rules_nickel+//nickel:repositories.bzl%nickel_repositories",
             "attributes": {
-              "nickel_version": "1.4.1",
+              "nickel_version": "1.4.0",
               "nickel_opts": [
-                "--color=always"
+                "--color=never"
               ],
               "platform": "arm64-linux"
             }
